@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="MAWGT862.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+  <appSettings>
+    <add key="DBConnWebService" value="http://10.41.21.91:808/DBConnect.WebService/DBConnect.WebService.asmx"/>
+    <add key="BasicWebService" value="http://10.41.21.91:808/basic.webservice/WebService.asmx"/>
+    <add key="LogonWebService" value="http://10.41.21.91:808/portalwebservice/logon.asmx"/>
+    <add key="WmsWebService" value="http://10.41.20.182/WM/Wms.Basic.WebService/WmsWebService.asmx"/>  
+    <add key="LmsWebService" value="http://10.41.20.191/PPExternalService/PPExternalService.svc"/>
+    <add key="LmsEPWebService" value="http://10.41.20.182/EPExternalService/EPExternalService.svc"/>
+
+    
+    <add key="FXXX_DBConnWebService" value="http://localhost/DBConnect.WebService/DBConnect.WebService.asmx"/> <!-- For different plant set different DBConnWebService -->
+    <add key="FXXX_BasicWebService" value="http://localhost/basic.webservice/WebService.asmx"/> <!-- For different plant set different BasicWebService -->
+    <add key="FXXX_LmsWebService" value="http://localhost/PPExternalService/PPExternalService.svc"/> <!-- For different plant set different LmsWebService(PP) -->
+    <add key="F130_DBConnWebService" value="http://10.41.16.184:130/DBConnect.WebService/DBConnect.WebService.asmx"/>
+    <add key="F130_BasicWebService" value="http://10.41.16.184:130/basic.webservice/WebService.asmx"/>
+    <add key="F130_LmsWebService" value="http://10.41.20.186/PPExternalService/PPExternalService.svc"/>
+
+    <add key="withCOM" value="0"/>
+    <add key="withPLCCOM" value="0"/>
+    <add key="WorkstationIP" value="10.41.56.119"/>
+  </appSettings>
+    <system.diagnostics>
+        <sources>
+            <!-- This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+    <system.serviceModel>
+        <bindings />
+        <client />
+    </system.serviceModel>
+    <applicationSettings>
+        <MAWGT862.My.MySettings>
+            <setting name="MAWGT862_Basic_WebService" serializeAs="String">
+                <value>http://10.41.21.91:808/Basic.WebService/WebService.asmx</value>
+            </setting>
+            <setting name="MAWGT862_DBConn_DBConnect" serializeAs="String">
+                <value>http://10.41.21.91:808/DBConnect.WebService/DBConnect.WebService.asmx</value>
+            </setting>
+            <setting name="MAWGT862_logon_Logon" serializeAs="String">
+                <value>http://10.41.21.91:808/PortalWebService/Logon.asmx</value>
+            </setting>
+            <setting name="MAWGT862_WmsBasic_WmsWebService" serializeAs="String">
+                <value>http://10.41.21.138/WM/Wms.Basic.WebService/WmsWebService.asmx</value>
+            </setting>
+            <setting name="MAWGT862_LMS_PPExternalService" serializeAs="String">
+                <value>http://cnzhs15lmsppapq.wzs.wistron/PPExternalService/PPExternalService.svc</value>
+            </setting>
+            <setting name="MAWGT862_LMSEP_EPExternalService" serializeAs="String">
+                <value>http://cnzhs15lmsepapq.wzs.wistron/EPExternalService/EPExternalService.svc</value>
+            </setting>
+        </MAWGT862.My.MySettings>
+    </applicationSettings>
+</configuration>

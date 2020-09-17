@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <add key="DBConnWebService" value="http://10.41.21.91:808/DBConnect.WebService/DBConnect.WebService.asmx" />
+    <add key="BasicWebService" value="http://10.41.21.91:808/basic.webservice/WebService.asmx" />
+    <add key="LogonWebService" value="http://10.41.21.91:808/portalwebservice/logon.asmx" />
+    <add key="WmsWebService" value="http://10.41.21.91:808/WM/Wms.Basic.WebService/WmsWebService.asmx" />
+    <add key="LmsWebService" value="http://10.41.21.91:808/PPExternalService/PPExternalService.svc" />
+    <!--LMS QAS test 10.41.20.183-->
+    <!--LMS DEV test 10.37.36.183-->
+    <add key="withCOM" value="0" />
+    <add key="MaxTractorWeight" value="90" /> <!--Add for deduct the tractor weight for F192-->
+    <add key="MinTractorWeight" value="60" /> <!--Add for deduct the tractor weight for F192-->
+    <add key="WorkstationIP" value="10.41.56.119" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+  </appSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>
