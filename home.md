@@ -2,7 +2,7 @@
 title: SFCS
 description: SFCS index
 published: true
-date: 2020-09-18T03:17:12.352Z
+date: 2020-09-18T03:40:28.845Z
 tags: sfsc
 editor: markdown
 ---
@@ -21,7 +21,6 @@ editor: markdown
   \- CIM (Computer Integrated Manufacturing)​
 
 - Why we need SFCS?
-![1569468517395.png](/1569469669300.png){.align-left}
 ![1569468517395.png](/1569469669300.png){.align-left}
 - Wistron SFCS  in WW ([Wistron Portal](https://portal.wistron.com/weip/web/EIP_F_4001Q.aspx))
 ![1569468517395.png](/1569468517395.png){.align-left}
