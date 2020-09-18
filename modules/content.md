@@ -2,7 +2,7 @@
 title: Modules
 description: Modules content
 published: true
-date: 2020-09-18T09:26:07.097Z
+date: 2020-09-18T09:27:42.080Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-25T09:21:32.064Z
@@ -21,14 +21,9 @@ dateCreated: 2020-08-25T09:21:32.064Z
 - [:computer: System Design Content *Go to System Design Content.* ](/LMS/System_Design/system_design)
 {.links-list}
 ### Reference
-### Tabs {.tabset}
-#### Reference
+- [:clipboard: Reference Content *Go to Reference Content.*](/LMS/Reference/reference)
+{.links-list}
 
-- [:clipboard: Reference Content *Go to Reference Content.*](/LMS/Reference/reference)
-{.links-list}
-#### Reference
-- [:clipboard: Reference Content *Go to Reference Content.*](/LMS/Reference/reference)
-{.links-list}
 
 # WMS
 ## Tabs {.tabset}
