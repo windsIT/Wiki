@@ -2,7 +2,7 @@
 title: Modules Content
 description: SFCS Modules Content
 published: true
-date: 2020-10-23T08:09:40.456Z
+date: 2020-10-23T08:11:31.547Z
 tags: sfcs, modules
 editor: markdown
 dateCreated: 2020-10-23T08:09:40.456Z
@@ -26,7 +26,7 @@ dateCreated: 2020-10-23T08:09:40.456Z
 - [:wavy_dash: DB Object SQL *:x:*](/en/sfcs/about/dbobjsql)
 {.links-list}
 
-
+#  另外的样式，讨论决定一种
 - [:globe_with_meridians: MO Download *MO Download modules page.*](./modules/mo_download)
 - [:package: Weighting *Weighting modules page.*](./modules/weighing)
 - [:clipboard: MO Readiness Check *测试相对路径*](./modules/mo_readiness_check)
