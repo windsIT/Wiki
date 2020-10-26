@@ -2,8 +2,8 @@
 title: SFCS
 description: SFCS Home: Introduction to the SFCS
 published: true
-date: 2020-10-23T07:59:30.450Z
-tags: sfsc
+date: 2020-10-26T01:15:59.372Z
+tags: sfcs
 editor: markdown
 dateCreated: 2020-08-25T07:34:52.818Z
 ---
