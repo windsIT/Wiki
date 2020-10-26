@@ -2,7 +2,7 @@
 title: SFCS Docs Wiki.js Guide
 description: How to create your first page and more
 published: true
-date: 2020-10-26T09:36:31.344Z
+date: 2020-10-26T09:44:56.068Z
 tags: guide
 editor: markdown
 dateCreated: 2020-10-26T07:36:53.549Z
@@ -109,33 +109,89 @@ Lorem `ipsum` dolor
 使用标题和添加`{.tabset}`类的父标题。父标题文本不会显示在最终结果中。
 > 请注意，您可以使用任何头级别，只要子头级别更高。例如，如果父标题是### (h3)，那么子标题必须是#### # (h4)。父标题的最大标题级别为5，子标题为6
 {.is-info}
-### Tabs {.tabset}
+## Tabs {.tabset}
 ### First Tab
-
 Any content here will go into the first tab...
-
 ### Second Tab
-
 Any content here will go into the second tab...
-
 ### Third Tab
-
 Any content here will go into the third tab...
 
 
+## Emojis 表情符号
 
+语法：`:identifier:`
+如 :apple:, :fire:
+请参阅表情图备忘表： [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) 
+
+## Images 图片
+语法： `![Image Caption](Image Source)`. 或者UI操作：左边工具栏的 **Assets** 工具。
+
+```markdown
+![Lorem ipsum](https://dolor.example.com/sit/amet.jpg)
+
+Consectetur ![adipiscing](/link/to/image.jpg) elit
+```
+
+有时图像太大，或者您希望图像填满所有可用空间。
+- 在图像路径末尾加上尺寸，格式如下
+```Markdown
+![Image](/link/to/image.jpg =100x50)
+```
+- 也可以省略其中一个值，以自动保持图像比率：
+  ```markdown
+  ![Image](/link/to/image.jpg =100x)
+  ![Image](/link/to/image.jpg =x50)
+  ```
+- 也可以使用其他单位，比如**%**。当需要图像占用所有可用空间时非常有用：
+```markdown
+![Image](/link/to/image.jpg =100%x)
+```
+### asset 图片的对齐方式:
+```markdown
+None
+![快捷键.png](/modules/快捷键.png)
+Left: `{.align-left}` 
+![快捷键.png](/modules/快捷键.png){.align-left}
+Centered: `{.align-center}`
+![快捷键.png](/modules/快捷键.png){.align-center}
+Right: `{.align-right}`
+![快捷键.png](/modules/快捷键.png){.align-right}
+Absolute Top Right `{.align-abstopright}`
+![快捷键.png](/modules/快捷键.png){.align-abstopright}
+```
+
+## Footnotes 脚注
+This sentence[^1] needs a few footnotes.[^2]
+[^1]: A string of syntactic words.
+[^2]: A useful example sentence.
+
+## Task Lists 任务列表
+语法： `- [ ]` or  `- [x]`.
+- [x] Checked task item
+- [x] Another checked task item
+- [ ] Unchecked task item
+
+## Mermaid Diagrams
+**暂时没有使用的打算。**
+Mermaid是一种简单的类似 Markdown 的脚本语言，通过 JavaScript 编程语言，将文本转换为图片。
+Mermaid 支持绘制非常多种类的图，常见的有时序图、流程图、类图、甘特图等等
+```mermaid
+sequenceDiagram
+    Alice ->> Bob: Hello Bob, how are you?
+    Bob-->>John: How about you John?
+    Bob--x Alice: I am good thanks!
+    Bob-x John: I am good thanks!
+    Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+    Bob-->Alice: Checking with John...
+    Alice->John: Yes... John, how are you?
+```
+
+## PlantUML Diagrams
+**暂时没有使用的打算。**
+PlantUML是一个快速创建UML图形的组件。
 ```plantuml
 Bob->Alice : hello
 ```
-## test
 
-- Grid Item 1  *test*
-- Grid Item 2
-- Grid Item 3
-{.grid-list}
-
-## test 02
-- [Lorem ipsum dolor sit amet *Subtitle description here*](https://www.google.com)
-- [Consectetur adipiscing elit *Another subtitle description here*](https://www.google.com)
-- [Morbi vehicula aliquam *Third subtitle description here*](https://www.google.com)
-{.links-list}
