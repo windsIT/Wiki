@@ -2,14 +2,15 @@
 title: SFCS
 description: SFCS Home: Introduction to the SFCS
 published: true
-date: 2020-10-26T01:15:59.372Z
+date: 2020-10-26T07:20:35.259Z
 tags: sfcs
 editor: markdown
 dateCreated: 2020-08-25T07:34:52.818Z
 ---
 
-- [:link:SFCS Temp Test Page *:arrow_forward:*](/en/sfcs/test)
+- [:link:SFCS Docs Wiki.js Guide Page *:arrow_forward:*](/en/sfcs/guide)
 {.links-list}
+
 # Introduction to the SFCS
 - These SFCS docs help you learn and use SFCS, no matter beginner or expert. 
 
