@@ -2,7 +2,7 @@
 title: SFCS Docs Wiki.js Guide
 description: How to create your first page and more
 published: true
-date: 2020-10-26T09:45:46.291Z
+date: 2020-10-26T09:49:17.483Z
 tags: guide
 editor: markdown
 dateCreated: 2020-10-26T07:36:53.549Z
@@ -101,7 +101,6 @@ Lorem `ipsum` dolor
 如 <kbd>CTRL</kbd> + <kbd>C</kbd>
 
 ## Horizontal Line 水平分割线
-语法：`---`
 ---
 
 # 编辑器其他功能
