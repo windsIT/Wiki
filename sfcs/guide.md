@@ -2,7 +2,7 @@
 title: SFCS Docs Wiki.js Guide
 description: How to create your first page and more
 published: true
-date: 2020-10-26T09:25:30.399Z
+date: 2020-10-26T09:36:31.344Z
 tags: guide
 editor: markdown
 dateCreated: 2020-10-26T07:36:53.549Z
@@ -104,7 +104,23 @@ Lorem `ipsum` dolor
 语法：`---`
 ---
 
+# 编辑器其他功能
+## Content Tabs 内容表
+使用标题和添加`{.tabset}`类的父标题。父标题文本不会显示在最终结果中。
+> 请注意，您可以使用任何头级别，只要子头级别更高。例如，如果父标题是### (h3)，那么子标题必须是#### # (h4)。父标题的最大标题级别为5，子标题为6
+{.is-info}
+### Tabs {.tabset}
+### First Tab
 
+Any content here will go into the first tab...
+
+### Second Tab
+
+Any content here will go into the second tab...
+
+### Third Tab
+
+Any content here will go into the third tab...
 
 
 
