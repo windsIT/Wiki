@@ -2,7 +2,7 @@
 title: SFCS Docs Wiki.js Guide
 description: How to create your first page and more
 published: true
-date: 2020-10-27T01:10:44.733Z
+date: 2020-10-27T01:43:04.357Z
 tags: guide
 editor: markdown
 dateCreated: 2020-10-26T07:36:53.549Z
@@ -194,4 +194,22 @@ PlantUML是一个快速创建UML图形的组件。
 Bob->Alice : hello
 ```
 # Media Assets 媒体资产
-上传，使用（对齐方式），管理--- 以MAWGT861为例
+上传，使用（对齐方式），管理--- 以QAS 中的MAPACK001为例
+对齐方式：
+ None
+   ![快捷键.png](/modules/快捷键.png)
+Left: `{.align-left}` 
+   ![快捷键.png](/modules/快捷键.png){.align-left}
+Centered: `{.align-center}`
+   ![快捷键.png](/modules/快捷键.png){.align-center}
+Right: `{.align-right}`
+   ![快捷键.png](/modules/快捷键.png){.align-right}
+Absolute Top Right `{.align-abstopright}`
+   ![快捷键.png](/modules/快捷键.png){.align-abstopright}
+
+# 其他注意事项或小技巧
+
+1. 可以跳转定位到页面中某个标题：如跳转到某个页面的Reference一级标题：`../mapack001#reference`
+[go to mapack001 reference title](/sfcs/modules/packing/mapack001#reference)
+2. 表格的处理：若直接从Excel中Copy到Wik.js,不会自动识别；建议的Copy顺序: Excel -->Typora -->Wiki.js
+3. 在线Draw IO 画图工具中，其文字描述中不能出现``回车换行键``，否则显示不出来。
