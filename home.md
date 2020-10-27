@@ -2,7 +2,7 @@
 title: CIM Navigation
 description: CIM Online Docs Navigation
 published: true
-date: 2020-10-23T08:01:42.781Z
+date: 2020-10-27T00:49:01.537Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-23T08:01:42.781Z
@@ -72,12 +72,13 @@ dateCreated: 2020-10-23T08:01:42.781Z
 - [:clipboard: SFCS Flow *SFCS Common Flow* *:x:*](/sfcs/started/sfcscommonflow)
 {.links-list}
 ### Modules
+- [:house: Modules Content *Modules Menu* *:arrow_forward:*](/en/sfcs/modules)
 - [:office: MO Download *:x:*](/en/sfcs/modules/mo_download)
 - [:curly_loop: MO Readiness Check *:x:*](/en/sfcs/modules/mo_readiness_check)
 - [:house: SN Generator *:x:*](/en/sfcs/modules/sn_generator)
 - [:curly_loop: SMO *:x:*](/en/sfcs/modules/smo)   
 - [:house: Function Test *:x:*](/en/sfcs/modules/function_test)
-- [:curly_loop: Packing *:x:*](/en/sfcs/modules/packing)
+- [:curly_loop: Packing *:white_check_mark:*](/en/sfcs/modules/packing)
 - [:house: Item Compare *:x:*](/en/sfcs/modules/item_compare)
 - [:office: Weighing *:white_check_mark:*](/en/sfcs/modules/weighing)
 - [:curly_loop: Store In *:x:*](/en/sfcs/modules/store_in)
