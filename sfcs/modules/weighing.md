@@ -2,7 +2,7 @@
 title: Weighing Module
 description: Weighing related Manufacture Applications
 published: true
-date: 2020-10-27T00:55:07.802Z
+date: 2020-10-27T00:56:48.799Z
 tags: weighing
 editor: markdown
 dateCreated: 2020-10-27T00:55:07.802Z
