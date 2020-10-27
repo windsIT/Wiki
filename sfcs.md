@@ -2,7 +2,7 @@
 title: SFCS
 description: SFCS Home: Introduction to the SFCS
 published: true
-date: 2020-10-26T07:20:35.259Z
+date: 2020-10-27T01:34:59.411Z
 tags: sfcs
 editor: markdown
 dateCreated: 2020-08-25T07:34:52.818Z
@@ -109,6 +109,7 @@ dateCreated: 2020-08-25T07:34:52.818Z
 ## SFCS Portal
 
 - ![1583397638748](/sfcs/index/1583397638748.png =90%x)
+![1583397638748.png](/sfcs/index/1583397638748.png)
 
 ## SFCS Environment
 
