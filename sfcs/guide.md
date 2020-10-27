@@ -2,7 +2,7 @@
 title: SFCS Docs Wiki.js Guide
 description: How to create your first page and more
 published: true
-date: 2020-10-27T01:49:32.058Z
+date: 2020-10-27T02:22:30.248Z
 tags: guide
 editor: markdown
 dateCreated: 2020-10-26T07:36:53.549Z
@@ -142,7 +142,7 @@ Consectetur ![adipiscing](/link/to/image.jpg) elit
   ![Image](/link/to/image.jpg =100x)
   ![Image](/link/to/image.jpg =x50)
   ```
-- 也可以使用其他单位，比如**%**。当需要图像占用所有可用空间时非常有用：
+- 也可以使用其他单位，比如**%**。当需要图像占用所有可用空间时非常有用（推荐）：
 ```markdown
 ![Image](/link/to/image.jpg =100%x)
 ```
