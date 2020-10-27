@@ -2,7 +2,7 @@
 title: SFCS Docs Wiki.js Guide
 description: How to create your first page and more
 published: true
-date: 2020-10-26T09:49:17.483Z
+date: 2020-10-27T01:10:44.733Z
 tags: guide
 editor: markdown
 dateCreated: 2020-10-26T07:36:53.549Z
@@ -193,4 +193,5 @@ PlantUML是一个快速创建UML图形的组件。
 ```plantuml
 Bob->Alice : hello
 ```
-
+# Media Assets 媒体资产
+上传，使用（对齐方式），管理--- 以MAWGT861为例
