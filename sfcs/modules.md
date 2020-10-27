@@ -2,7 +2,7 @@
 title: Modules Content
 description: SFCS Modules Content
 published: true
-date: 2020-10-23T08:11:31.547Z
+date: 2020-10-27T01:19:07.024Z
 tags: sfcs, modules
 editor: markdown
 dateCreated: 2020-10-23T08:09:40.456Z
@@ -14,9 +14,9 @@ dateCreated: 2020-10-23T08:09:40.456Z
 - [:globe_with_meridians: SMUNIT006 Unit Package*Base Data Maintain: set the rule of packing.* *:white_check_mark:*](/en/sfcs/modules/packing/smunit006)
 {.links-list}
 ### MA APP
-- [:computer: MAPACK001 *Packing Win Form Application.* *:white_check_mark:*](./packing/mapack001)
-- [:earth_asia: MAPACK002 *Packing Web Form Application.* *:white_check_mark:*](./packing/mapack002)
-- [:two: MAPACK003 *2nd PACKING.* *:white_check_mark:*](./packing/mapack003)
+- [:computer: MAPACK001 *Packing Win Form Application.* *:white_check_mark:*](./modules/packing/mapack001)
+- [:earth_asia: MAPACK002 *Packing Web Form Application.* *:white_check_mark:*](./modules/packing/mapack002)
+- [:two: MAPACK003 *2nd PACKING.* *:white_check_mark:*](./modules/packing/mapack003)
 - [:office: MASMO001 *Can generate carton ID same with USN, it only for 1 unit in 1 carton.* *:x:*](/en/sfcs/modules/smo/masmo001)
 {.links-list}
 ### About
